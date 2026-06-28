@@ -1,0 +1,27 @@
+@page
+@model HealthMatrix.Web.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Login.Email"></label>
+        <input asp-for="Login.Email" class="form-control" />
+        <span asp-validation-for="Login.Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Login.Password"></label>
+        <input asp-for="Login.Password" class="form-control" />
+        <span asp-validation-for="Login.Password" class="text-danger"></span>
+    </div>
+    <div class="form-check mb-3">
+        <input asp-for="Login.RememberMe" class="form-check-input" />
+        <label asp-for="Login.RememberMe" class="form-check-label"></label>
+    </div>  
+    
+    <button type="submit" class="btn btn-primary">Login</button>
+</form> 
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}   

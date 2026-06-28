@@ -1,0 +1,48 @@
+@page
+@model HealthMatrix.Web.Pages.Account.RegisterModel
+@{
+    ViewData[ "Title"] = "Register";
+}
+
+<h2>Patient Register</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Register.Name"></label>
+        <input asp-for="Register.Name" class="form-control" />
+        <span asp-validation-for="Register.Name" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Register.Email"></label>
+        <input asp-for="Register.Email" class="form-control" />
+        <span asp-validation-for="Register.Email" class="text-danger"></span>
+    </div>
+    
+    <div class="mb-3">
+        <label asp-for="Register.Password"></label>
+        <input asp-for="Register.Password" class="form-control" />
+        <span asp-validation-for="Register.Password" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Register.ConfirmPassword"></label>
+        <input asp-for="Register.ConfirmPassword" class="form-control" />
+        <span asp-validation-for="Register.ConfirmPassword" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label>Role</label>
+        <select asp-for="Register.Role" class="form-control">
+            <option value="Patient">Patient</option>
+            <option value="Doctor">Doctor</option>
+            <option value="Admin">Admin</option>
+            <option value="Receptionist">Receptionist</option>
+        </select>
+   
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
