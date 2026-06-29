@@ -36,6 +36,46 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
+      },
+      "Events/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Events.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Events.dll": {}
+        }
+      },
+      "SharedKernel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/SharedKernel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedKernel.dll": {}
+        }
       }
     }
   },
@@ -75,31 +115,55 @@
         "microsoft.openapi.2.0.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../../BuildingBlocks/Common/Common.csproj",
+      "msbuildProject": "../../BuildingBlocks/Common/Common.csproj"
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../BuildingBlocks/Contracts/Contracts.csproj",
+      "msbuildProject": "../../BuildingBlocks/Contracts/Contracts.csproj"
+    },
+    "Events/1.0.0": {
+      "type": "project",
+      "path": "../../BuildingBlocks/Events/Events.csproj",
+      "msbuildProject": "../../BuildingBlocks/Events/Events.csproj"
+    },
+    "SharedKernel/1.0.0": {
+      "type": "project",
+      "path": "../../BuildingBlocks/SharedKernel/SharedKernel.csproj",
+      "msbuildProject": "../../BuildingBlocks/SharedKernel/SharedKernel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.8"
+      "Common >= 1.0.0",
+      "Contracts >= 1.0.0",
+      "Events >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.8",
+      "SharedKernel >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gowth\\.nuget\\packages\\": {},
+    "C:\\Users\\dshiv\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\DoctorService\\DoctorService.csproj",
+      "projectUniqueName": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Services\\DoctorService\\DoctorService.csproj",
       "projectName": "DoctorService",
-      "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\DoctorService\\DoctorService.csproj",
-      "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\DoctorService\\obj\\",
+      "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Services\\DoctorService\\DoctorService.csproj",
+      "packagesPath": "C:\\Users\\dshiv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Services\\DoctorService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dshiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -114,7 +178,20 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
+            },
+            "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj"
+            },
+            "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Events\\Events.csproj": {
+              "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\Events\\Events.csproj"
+            },
+            "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
+              "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -158,7 +235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

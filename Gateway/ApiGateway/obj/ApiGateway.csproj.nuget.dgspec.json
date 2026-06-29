@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj": {}
+    "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj": {
+    "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj",
+        "projectUniqueName": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj",
         "projectName": "ApiGateway",
-        "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj",
-        "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Gateway\\ApiGateway\\obj\\",
+        "projectPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Gateway\\ApiGateway\\ApiGateway.csproj",
+        "packagesPath": "C:\\Users\\dshiv\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dshiv\\OneDrive\\Desktop\\HealthMatrixT3\\Gateway\\ApiGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dshiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
