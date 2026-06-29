@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "UVyhXG4e094=",
   "success": true,
   "projectFilePath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AppointmentService\\AppointmentService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M S P\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\M S P\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+=======
+  "dgSpecHash": "EVz/K4t1U8Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\AppointmentService\\AppointmentService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "C:\\Users\\gowth\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+>>>>>>> main
   ],
   "logs": []
 }

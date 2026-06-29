@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2H0kDzt8FhY=",
   "success": true,
   "projectFilePath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj",
+=======
+  "dgSpecHash": "aG5OBntlhqQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj",
+>>>>>>> main
   "expectedPackageFiles": [],
   "logs": []
 }
