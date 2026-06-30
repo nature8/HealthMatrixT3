@@ -2,9 +2,6 @@
   "version": 4,
   "targets": {
     "net10.0": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
       "Azure.Core/1.47.1": {
         "type": "package",
         "dependencies": {
@@ -73,11 +70,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
->>>>>>> 7382ac74e03b248db0093aea893755264916dc92
       "Microsoft.AspNetCore.OpenApi/10.0.9": {
-=======
-      "Microsoft.AspNetCore.OpenApi/10.0.8": {
->>>>>>> main
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "2.0.0"
@@ -1116,8 +1109,6 @@
           "bin/placeholder/Contracts.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Events/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1128,7 +1119,6 @@
           "bin/placeholder/Events.dll": {}
         }
       },
->>>>>>> main
       "SharedKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1142,9 +1132,6 @@
     }
   },
   "libraries": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     "Azure.Core/1.47.1": {
       "sha512": "oPcncSsDHuxB8SC522z47xbp2+ttkcKv2YZ90KXhRKN0YQd2+7l1UURT9EBzUNEXtkLZUOAB5xbByMTrYRh3yA==",
       "type": "package",
@@ -1219,17 +1206,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
->>>>>>> 7382ac74e03b248db0093aea893755264916dc92
     "Microsoft.AspNetCore.OpenApi/10.0.9": {
       "sha512": "1ihb8FO9cGgEK1/m3CTtT/SfnynwmiZib0W2pcDVj3KSWk/Sca4VOXEtaptKQc582zpFrzTFiwkGRCglt6H+WQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.openapi/10.0.9",
-=======
-    "Microsoft.AspNetCore.OpenApi/10.0.8": {
-      "sha512": "cw24xHE2QaWwyEG9GQwFbjboyabub6Vd80DIItUGENzcQOa/BEnTrXsg2GADqWTmY/3ycqk9ToLGjgvF/VRlGA==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.8",
->>>>>>> main
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1240,11 +1220,7 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-<<<<<<< HEAD
         "microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
-=======
-        "microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
->>>>>>> main
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -3261,14 +3237,11 @@
       "path": "../../BuildingBlocks/Contracts/Contracts.csproj",
       "msbuildProject": "../../BuildingBlocks/Contracts/Contracts.csproj"
     },
-<<<<<<< HEAD
-=======
     "Events/1.0.0": {
       "type": "project",
       "path": "../../BuildingBlocks/Events/Events.csproj",
       "msbuildProject": "../../BuildingBlocks/Events/Events.csproj"
     },
->>>>>>> main
     "SharedKernel/1.0.0": {
       "type": "project",
       "path": "../../BuildingBlocks/SharedKernel/SharedKernel.csproj",
@@ -3279,57 +3252,33 @@
     "net10.0": [
       "Common >= 1.0.0",
       "Contracts >= 1.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "Microsoft.AspNetCore.OpenApi >= 10.0.9",
-=======
       "Events >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 10.0.8",
->>>>>>> main
-=======
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.9",
       "Microsoft.AspNetCore.OpenApi >= 10.0.9",
       "Microsoft.EntityFrameworkCore >= 10.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.9",
->>>>>>> 7382ac74e03b248db0093aea893755264916dc92
       "SharedKernel >= 1.0.0"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\M S P\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\gowth\\.nuget\\packages\\": {},
->>>>>>> main
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
-      "projectName": "PatientService",
-      "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
-      "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-      "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\PatientService\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
       "projectName": "PatientService",
       "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
       "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\PatientService\\obj\\",
->>>>>>> main
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3345,16 +3294,6 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
-            },
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj"
-            },
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
-=======
             "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
               "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
             },
@@ -3366,7 +3305,6 @@
             },
             "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
               "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
->>>>>>> main
             }
           }
         }
@@ -3394,13 +3332,7 @@
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-<<<<<<< HEAD
             "version": "[10.0.9, )"
-<<<<<<< HEAD
-=======
-            "version": "[10.0.8, )"
->>>>>>> main
-=======
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -3415,7 +3347,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[10.0.9, )"
->>>>>>> 7382ac74e03b248db0093aea893755264916dc92
           }
         },
         "imports": [
@@ -3437,11 +3368,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

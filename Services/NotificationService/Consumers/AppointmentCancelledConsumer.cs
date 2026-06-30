@@ -1,5 +1,5 @@
-using BuildingBlocks.Contracts.Events;
 using MassTransit;
+using BuildingBlocks.Contracts.Events;
 
 namespace NotificationService.Consumers;
 

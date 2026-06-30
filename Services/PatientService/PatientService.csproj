@@ -7,13 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
-=======
+
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
->>>>>>> main
-=======
+
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.9" />
@@ -22,17 +19,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
->>>>>>> 7382ac74e03b248db0093aea893755264916dc92
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\BuildingBlocks\Contracts\Contracts.csproj" />
     <ProjectReference Include="..\..\BuildingBlocks\Common\Common.csproj" />
     <ProjectReference Include="..\..\BuildingBlocks\SharedKernel\SharedKernel.csproj" />
-<<<<<<< HEAD
-=======
     <ProjectReference Include="..\..\BuildingBlocks\Events\Events.csproj" />
->>>>>>> main
+
   </ItemGroup>
 
 </Project>
