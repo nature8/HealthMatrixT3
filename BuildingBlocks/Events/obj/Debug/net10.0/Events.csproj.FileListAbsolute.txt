@@ -1,0 +1,12 @@
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\bin\Debug\net10.0\Events.deps.json
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\bin\Debug\net10.0\Events.dll
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\bin\Debug\net10.0\Events.pdb
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.AssemblyInfoInputs.cache
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.AssemblyInfo.cs
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.csproj.CoreCompileInputs.cache
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.sourcelink.json
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.dll
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\refint\Events.dll
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\Events.pdb
+C:\Users\gowth\OneDrive\Desktop\dotNet\HealthMatrixT3\BuildingBlocks\Events\obj\Debug\net10.0\ref\Events.dll
