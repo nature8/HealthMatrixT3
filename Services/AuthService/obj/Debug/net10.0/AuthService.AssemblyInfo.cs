@@ -14,10 +14,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02e3a366ccd520e55e9a8aa22332b82aad14b1f3")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61c19d265584d579f9a479edf91ec1b8502166cc")]
 >>>>>>> main
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3090181dd1df615c5e82d3ba1caa5174365ae601")]
+>>>>>>> 7382ac74e03b248db0093aea893755264916dc92
 [assembly: System.Reflection.AssemblyProductAttribute("AuthService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AuthService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
