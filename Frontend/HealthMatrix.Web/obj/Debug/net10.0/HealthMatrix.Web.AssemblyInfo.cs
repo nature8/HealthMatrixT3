@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HealthMatrix.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92335fe22e09b9cf8c695572715791fd3fa8c03b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbcc4ec41d65274c6d22ac627a1700b9f0775a2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HealthMatrix.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HealthMatrix.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
