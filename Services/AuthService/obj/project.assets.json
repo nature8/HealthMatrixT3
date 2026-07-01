@@ -3303,11 +3303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
+      "projectUniqueName": "C:\\My Folder\\HealthMatrixT3\\services\\AuthService\\AuthService.csproj",
       "projectName": "AuthService",
-      "projectPath": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
+      "projectPath": "C:\\My Folder\\HealthMatrixT3\\services\\AuthService\\AuthService.csproj",
       "packagesPath": "C:\\Users\\tailorpr\\.nuget\\packages\\",
-      "outputPath": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\obj\\",
+      "outputPath": "C:\\My Folder\\HealthMatrixT3\\services\\AuthService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

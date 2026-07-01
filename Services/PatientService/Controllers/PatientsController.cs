@@ -1,4 +1,4 @@
-/*using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PatientService.Data;
@@ -18,8 +18,6 @@ public class PatientsController : ControllerBase
         _context = context;
     }
 
-    
-    [Authorize(Roles = "Admin,Receptionist")]
     [HttpGet]
     public async Task<IActionResult> GetPatients()
     {
@@ -60,9 +58,9 @@ public class PatientsController : ControllerBase
             new { id = patient.PatientId },
             patient);
     }
-}*/
+}
 
-
+/*
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -224,4 +222,4 @@ public class PatientsController : ControllerBase
             UserId = userId
         });
     }
-}
+}*/

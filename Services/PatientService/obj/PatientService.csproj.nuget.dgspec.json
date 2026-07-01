@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj": {}
+    "C:\\My Folder\\HealthMatrixT3\\services\\PatientService\\PatientService.csproj": {}
   },
   "projects": {
     "C:\\My Folder\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
@@ -1368,14 +1368,14 @@
         }
       }
     },
-    "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj": {
+    "C:\\My Folder\\HealthMatrixT3\\services\\PatientService\\PatientService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
+        "projectUniqueName": "C:\\My Folder\\HealthMatrixT3\\services\\PatientService\\PatientService.csproj",
         "projectName": "PatientService",
-        "projectPath": "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\PatientService.csproj",
+        "projectPath": "C:\\My Folder\\HealthMatrixT3\\services\\PatientService\\PatientService.csproj",
         "packagesPath": "C:\\Users\\tailorpr\\.nuget\\packages\\",
-        "outputPath": "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\obj\\",
+        "outputPath": "C:\\My Folder\\HealthMatrixT3\\services\\PatientService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
