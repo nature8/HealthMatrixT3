@@ -1,22 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\",
+  "WorkspaceRootPath": "C:\\My Folder\\HealthMatrixT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|d:\\new volume2\\healthmatrix\\healthmatrixt3\\services\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{27A4A73C-33F9-7921-23D2-E0F85DB7E85C}|Services\\BillingService\\BillingService.csproj|c:\\my folder\\healthmatrixt3\\services\\billingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A4A73C-33F9-7921-23D2-E0F85DB7E85C}|Services\\BillingService\\BillingService.csproj|solutionrelative:services\\billingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A4A73C-33F9-7921-23D2-E0F85DB7E85C}|Services\\BillingService\\BillingService.csproj|c:\\my folder\\healthmatrixt3\\services\\billingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{27A4A73C-33F9-7921-23D2-E0F85DB7E85C}|Services\\BillingService\\BillingService.csproj|solutionrelative:services\\billingservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D88F1E-8853-889D-8794-6A43EAA79DF1}|Services\\DoctorService\\DoctorService.csproj|c:\\my folder\\healthmatrixt3\\services\\doctorservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78D88F1E-8853-889D-8794-6A43EAA79DF1}|Services\\DoctorService\\DoctorService.csproj|solutionrelative:services\\doctorservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D88F1E-8853-889D-8794-6A43EAA79DF1}|Services\\DoctorService\\DoctorService.csproj|c:\\my folder\\healthmatrixt3\\services\\doctorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D88F1E-8853-889D-8794-6A43EAA79DF1}|Services\\DoctorService\\DoctorService.csproj|solutionrelative:services\\doctorservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C547D7DE-4527-2496-4F20-D46E669069D9}|Services\\NotificationService\\NotificationService.csproj|c:\\my folder\\healthmatrixt3\\services\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C547D7DE-4527-2496-4F20-D46E669069D9}|Services\\NotificationService\\NotificationService.csproj|solutionrelative:services\\notificationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C547D7DE-4527-2496-4F20-D46E669069D9}|Services\\NotificationService\\NotificationService.csproj|c:\\my folder\\healthmatrixt3\\services\\notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C547D7DE-4527-2496-4F20-D46E669069D9}|Services\\NotificationService\\NotificationService.csproj|solutionrelative:services\\notificationservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C3C2731-6A35-13F7-0073-89C6E3723294}|Services\\PatientService\\PatientService.csproj|c:\\my folder\\healthmatrixt3\\services\\patientservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C3C2731-6A35-13F7-0073-89C6E3723294}|Services\\PatientService\\PatientService.csproj|solutionrelative:services\\patientservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|c:\\my folder\\healthmatrixt3\\services\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|solutionrelative:services\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99C27881-4371-A20A-3390-69632B7DCEFD}|Gateway\\ApiGateway\\ApiGateway.csproj|c:\\my folder\\healthmatrixt3\\gateway\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{99C27881-4371-A20A-3390-69632B7DCEFD}|Gateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:gateway\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|c:\\my folder\\healthmatrixt3\\services\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|solutionrelative:services\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|d:\\new volume2\\healthmatrix\\healthmatrixt3\\services\\authservice\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|c:\\my folder\\healthmatrixt3\\services\\authservice\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|solutionrelative:services\\authservice\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|d:\\new volume2\\healthmatrix\\healthmatrixt3\\services\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|c:\\my folder\\healthmatrixt3\\services\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|solutionrelative:services\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|d:\\new volume2\\healthmatrix\\healthmatrixt3\\services\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16FD9863-A745-7DF3-D0FD-B69A0BD39998}|Services\\AuthService\\AuthService.csproj|solutionrelative:services\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +58,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\appsettings.json",
-              "RelativeDocumentMoniker": "Services\\AuthService\\appsettings.json",
-              "ToolTip": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\appsettings.json",
-              "RelativeToolTip": "Services\\AuthService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-28T10:50:51.193Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\BillingService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\BillingService\\Program.cs",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\BillingService\\Program.cs",
+              "RelativeToolTip": "Services\\BillingService\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T15:03:15.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\BillingService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\BillingService\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\BillingService\\appsettings.json",
+              "RelativeToolTip": "Services\\BillingService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T15:00:23.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\DoctorService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\DoctorService\\Program.cs",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\DoctorService\\Program.cs",
+              "RelativeToolTip": "Services\\DoctorService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:10:48.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\DoctorService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\DoctorService\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\DoctorService\\appsettings.json",
+              "RelativeToolTip": "Services\\DoctorService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T12:10:40.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\NotificationService\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService\\Program.cs",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\NotificationService\\Program.cs",
+              "RelativeToolTip": "Services\\NotificationService\\Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T12:07:39.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Gateway\\ApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "Gateway\\ApiGateway\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Gateway\\ApiGateway\\appsettings.json",
+              "RelativeToolTip": "Gateway\\ApiGateway\\appsettings.json",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T03:56:14.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\NotificationService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\NotificationService\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\NotificationService\\appsettings.json",
+              "RelativeToolTip": "Services\\NotificationService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T03:51:02.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\PatientService\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\PatientService\\appsettings.json",
+              "RelativeToolTip": "Services\\PatientService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-01T03:50:38.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\AuthService\\appsettings.json",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\appsettings.json",
+              "RelativeToolTip": "Services\\AuthService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-28T10:50:51.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserRole.cs",
-              "DocumentMoniker": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\Models\\UserRole.cs",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Models\\UserRole.cs",
-              "ToolTip": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\Models\\UserRole.cs",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\Models\\UserRole.cs",
               "RelativeToolTip": "Services\\AuthService\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +185,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\Models\\User.cs",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\Models\\User.cs",
               "RelativeDocumentMoniker": "Services\\AuthService\\Models\\User.cs",
-              "ToolTip": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\Models\\User.cs",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\Models\\User.cs",
               "RelativeToolTip": "Services\\AuthService\\Models\\User.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAzwAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,16 +197,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "AuthService.csproj",
-              "DocumentMoniker": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
+              "DocumentMoniker": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
               "RelativeDocumentMoniker": "Services\\AuthService\\AuthService.csproj",
-              "ToolTip": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
+              "ToolTip": "C:\\My Folder\\HealthMatrixT3\\Services\\AuthService\\AuthService.csproj",
               "RelativeToolTip": "Services\\AuthService\\AuthService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-28T10:40:45.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-28T10:40:45.647Z"
             }
           ]
         }

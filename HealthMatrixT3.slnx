@@ -15,7 +15,6 @@
     <Project Path="Services/AuthService/AuthService.csproj" />
     <Project Path="Services/BillingService/BillingService.csproj" />
     <Project Path="Services/DoctorService/DoctorService.csproj" />
-    <Project Path="Services/MedicalRecordService/MedicalRecordService.csproj" />
     <Project Path="Services/NotificationService/NotificationService.csproj" />
     <Project Path="Services/PatientService/PatientService.csproj" />
   </Folder>
