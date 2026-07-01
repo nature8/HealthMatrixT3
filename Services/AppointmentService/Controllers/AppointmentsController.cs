@@ -1,11 +1,11 @@
-using AppointmentService.Api.DTOs;
-using AppointmentService.Api.Messaging;
-using AppointmentService.Api.Models;
-using AppointmentService.Api.Repositories;
+using AppointmentService.DTOs;
+using AppointmentService.Messaging;
+using AppointmentService.Models;
+using AppointmentService.Repositories;
 using BuildingBlocks.Contracts.Events;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AppointmentService.Api.Controllers;
+namespace AppointmentService.Controllers;
 
 [ApiController]
 [Route("api/appointments")]

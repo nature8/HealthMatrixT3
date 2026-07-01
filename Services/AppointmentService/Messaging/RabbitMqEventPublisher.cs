@@ -2,7 +2,7 @@ using System.Text;
 using System.Text.Json;
 using RabbitMQ.Client;
 
-namespace AppointmentService.Api.Messaging;
+namespace AppointmentService.Messaging;
 
 public class RabbitMqEventPublisher : IEventPublisher, IAsyncDisposable
 {

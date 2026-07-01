@@ -1,4 +1,4 @@
-namespace AppointmentService.Api.Messaging;
+namespace AppointmentService.Messaging;
 
 public interface IEventPublisher
 {

@@ -1,8 +1,8 @@
-using AppointmentService.Api.Data;
-using AppointmentService.Api.Models;
+using AppointmentService.Data;
+using AppointmentService.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppointmentService.Api.Repositories;
+namespace AppointmentService.Repositories;
 
 public class AppointmentRepository : IAppointmentRepository
 {

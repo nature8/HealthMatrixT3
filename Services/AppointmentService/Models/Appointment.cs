@@ -1,4 +1,4 @@
-namespace AppointmentService.Api.Models;
+namespace AppointmentService.Models;
 
 public enum AppointmentStatus
 {

@@ -1,4 +1,4 @@
-namespace AppointmentService.Api.DTOs;
+namespace AppointmentService.DTOs;
 
 public record BookAppointmentRequest(
     int PatientId,

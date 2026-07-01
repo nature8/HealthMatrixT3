@@ -1,6 +1,6 @@
-using AppointmentService.Api.Models;
+using AppointmentService.Models;
 
-namespace AppointmentService.Api.Repositories;
+namespace AppointmentService.Repositories;
 
 public interface IAppointmentRepository
 {
