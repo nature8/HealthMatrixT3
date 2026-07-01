@@ -1,16 +1,22 @@
-using Serilog;
 using Microsoft.EntityFrameworkCore;
 using DoctorService.Api.Data;
 using DoctorService.Api.Repositories;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .Enrich.FromLogContext()
-    .CreateLogger();
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration) 
+    .Enrich.FromLogContext()
+    .Enrich.WithEnvironmentName()
+    .Enrich.WithThreadId()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 builder.Host.UseSerilog();
 

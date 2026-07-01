@@ -1,0 +1,6 @@
+2026-07-01 23:24:54.081 +05:30 [INF] User profile is available. Using 'C:\Users\tailorpr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-01 23:24:54.171 +05:30 [INF] Now listening on: http://localhost:5098
+2026-07-01 23:24:54.175 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 23:24:54.177 +05:30 [INF] Hosting environment: Development
+2026-07-01 23:24:54.178 +05:30 [INF] Content root path: C:\My Folder\HealthMatrixT3\services\AuthService
+2026-07-01 23:24:57.764 +05:30 [INF] Application is shutting down...

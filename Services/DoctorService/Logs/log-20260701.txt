@@ -1,0 +1,5 @@
+2026-07-01 23:40:57.428 +05:30 [INF] Now listening on: http://localhost:5032
+2026-07-01 23:40:57.526 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-01 23:40:57.531 +05:30 [INF] Hosting environment: Development
+2026-07-01 23:40:57.538 +05:30 [INF] Content root path: C:\My Folder\HealthMatrixT3\Services\DoctorService
+2026-07-01 23:41:00.719 +05:30 [INF] Application is shutting down...
