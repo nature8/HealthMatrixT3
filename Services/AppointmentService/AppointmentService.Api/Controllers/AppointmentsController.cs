@@ -1,8 +1,8 @@
 using AppointmentService.Api.DTOs;
-using AppointmentService.Api.Events;
 using AppointmentService.Api.Messaging;
 using AppointmentService.Api.Models;
 using AppointmentService.Api.Repositories;
+using BuildingBlocks.Contracts.Events;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppointmentService.Api.Controllers;
@@ -57,6 +57,7 @@ public class AppointmentsController : ControllerBase
             created.AppointmentId,
             created.PatientId,
             created.DoctorId,
+            request.PatientEmail,
             created.AppointmentDate
         ), exchangeName: "appointment-created");
 
@@ -64,14 +65,14 @@ public class AppointmentsController : ControllerBase
     }
 
     [HttpPut("{id:guid}/cancel")]
-    public async Task<IActionResult> Cancel(Guid id)
+    public async Task<IActionResult> Cancel(Guid id, [FromQuery] string patientEmail)
     {
         var cancelled = await _repository.CancelAsync(id);
         if (!cancelled) return NotFound();
 
         _logger.LogInformation("Appointment Cancelled: {AppointmentId}", id);
 
-        await _eventPublisher.PublishAsync(new AppointmentCancelledEvent(id), exchangeName: "appointment-cancelled");
+        await _eventPublisher.PublishAsync(new AppointmentCancelledEvent(id, patientEmail), exchangeName: "appointment-cancelled");
 
         return Ok(new { message = "Appointment cancelled" });
     }
