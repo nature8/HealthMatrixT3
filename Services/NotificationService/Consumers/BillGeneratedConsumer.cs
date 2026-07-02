@@ -1,17 +1,21 @@
-using BuildingBlocks.Contracts.Events;
+using Contracts.Events;
+using NotificationService.Services;
 using MassTransit;
-
-namespace NotificationService.Consumers;
-
-public class BillGeneratedConsumer :
-    IConsumer<BillGeneratedEvent>
+public class BillGeneratedConsumer : IConsumer<BillGeneratedEvent>
 {
-    public async Task Consume(
-        ConsumeContext<BillGeneratedEvent> context)
-    {
-        Console.WriteLine(
-            $"Bill generated for {context.Message.PatientEmail}");
+    private readonly IEmailService _emailService;
 
-        await Task.CompletedTask;
+    public BillGeneratedConsumer(
+        IEmailService emailService)
+    {
+        _emailService = emailService;
+    }
+
+    public async Task Consume(ConsumeContext<BillGeneratedEvent> context)
+    {
+        await _emailService.SendEmailAsync(
+            context.Message.Email,
+            "Bill Generated",
+            $"Your bill amount is ₹{context.Message.Amount}");
     }
 }

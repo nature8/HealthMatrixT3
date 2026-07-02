@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj": {}
-  },
-  "projects": {
-    "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj",
-        "projectName": "Common",
-        "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-        "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\obj\\",
-=======
     "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj": {}
   },
   "projects": {
@@ -25,17 +12,12 @@
         "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,11 +67,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -367,16 +345,6 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj",
-        "projectName": "Contracts",
-        "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-        "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\obj\\",
-=======
     "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -385,17 +353,12 @@
         "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Contracts\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -445,11 +408,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -727,16 +686,6 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj",
-        "projectName": "SharedKernel",
-        "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj",
-        "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-        "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\obj\\",
-=======
     "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Events\\Events.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1086,17 +1035,12 @@
         "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj",
         "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1146,11 +1090,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1428,16 +1368,6 @@
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
-        "projectName": "NotificationService",
-        "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
-        "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-        "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\obj\\",
-=======
     "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1446,17 +1376,12 @@
         "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
         "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1472,16 +1397,6 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
-                "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
-              },
-              "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj"
-              },
-              "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
-                "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
-=======
               "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
                 "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
               },
@@ -1493,7 +1408,6 @@
               },
               "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
                 "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
->>>>>>> main
               }
             }
           }
@@ -1515,22 +1429,17 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-<<<<<<< HEAD
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[10.0.9, )"
-=======
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[11.3.1, )"
             },
             "MassTransit": {
               "target": "Package",
-              "version": "[9.1.2, )"
+              "version": "[8.3.2, )"
             },
             "MassTransit.RabbitMQ": {
               "target": "Package",
-              "version": "[9.1.2, )"
+              "version": "[8.3.2, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -1561,7 +1470,6 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[10.2.3, )"
->>>>>>> main
             }
           },
           "imports": [
@@ -1583,11 +1491,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -2,9 +2,6 @@
   "version": 4,
   "targets": {
     "net10.0": {
-<<<<<<< HEAD
-      "Microsoft.AspNetCore.OpenApi/10.0.9": {
-=======
       "Azure.Core/1.47.1": {
         "type": "package",
         "dependencies": {
@@ -103,54 +100,53 @@
           }
         }
       },
-      "MassTransit/9.1.2": {
+      "MassTransit/8.3.2": {
         "type": "package",
         "dependencies": {
-          "MassTransit.Abstractions": "9.1.2"
+          "MassTransit.Abstractions": "8.3.2"
         },
         "compile": {
-          "lib/net10.0/MassTransit.dll": {
+          "lib/net9.0/MassTransit.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/MassTransit.dll": {
+          "lib/net9.0/MassTransit.dll": {
             "related": ".xml"
           }
         }
       },
-      "MassTransit.Abstractions/9.1.2": {
+      "MassTransit.Abstractions/8.3.2": {
         "type": "package",
         "compile": {
-          "lib/net10.0/MassTransit.Abstractions.dll": {
+          "lib/net9.0/MassTransit.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/MassTransit.Abstractions.dll": {
+          "lib/net9.0/MassTransit.Abstractions.dll": {
             "related": ".xml"
           }
         }
       },
-      "MassTransit.RabbitMQ/9.1.2": {
+      "MassTransit.RabbitMQ/8.3.2": {
         "type": "package",
         "dependencies": {
-          "MassTransit": "9.1.2",
-          "RabbitMQ.Client": "7.2.1"
+          "MassTransit": "8.3.2",
+          "RabbitMQ.Client": "7.0.0"
         },
         "compile": {
-          "lib/net10.0/MassTransit.RabbitMqTransport.dll": {
+          "lib/net9.0/MassTransit.RabbitMqTransport.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net10.0/MassTransit.RabbitMqTransport.dll": {
+          "lib/net9.0/MassTransit.RabbitMqTransport.dll": {
             "related": ".xml"
           }
         }
       },
       "Microsoft.AspNetCore.OpenApi/10.0.8": {
->>>>>>> main
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "2.0.0"
@@ -172,9 +168,6 @@
           "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-<<<<<<< HEAD
-      "Microsoft.OpenApi/2.0.0": {
-=======
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -873,7 +866,6 @@
         }
       },
       "Microsoft.OpenApi/2.7.5": {
->>>>>>> main
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -886,8 +878,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -942,7 +932,7 @@
           }
         }
       },
-      "RabbitMQ.Client/7.2.1": {
+      "RabbitMQ.Client/7.0.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/RabbitMQ.Client.dll": {
@@ -1408,7 +1398,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
->>>>>>> main
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1429,8 +1418,6 @@
           "bin/placeholder/Contracts.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Events/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1441,7 +1428,6 @@
           "bin/placeholder/Events.dll": {}
         }
       },
->>>>>>> main
       "SharedKernel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1455,12 +1441,6 @@
     }
   },
   "libraries": {
-<<<<<<< HEAD
-    "Microsoft.AspNetCore.OpenApi/10.0.9": {
-      "sha512": "1ihb8FO9cGgEK1/m3CTtT/SfnynwmiZib0W2pcDVj3KSWk/Sca4VOXEtaptKQc582zpFrzTFiwkGRCglt6H+WQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.9",
-=======
     "Azure.Core/1.47.1": {
       "sha512": "oPcncSsDHuxB8SC522z47xbp2+ttkcKv2YZ90KXhRKN0YQd2+7l1UURT9EBzUNEXtkLZUOAB5xbByMTrYRh3yA==",
       "type": "package",
@@ -1580,16 +1560,14 @@
         "logo.png"
       ]
     },
-    "MassTransit/9.1.2": {
-      "sha512": "7rHsXnvoQ+YpKBlWhkBPwkkbq9kK+mK2hro3Z7m1CfCqVUZPsDh/lmkuVkEXKsr+mY6fgG3rxQLaLTYVYaqsEw==",
+    "MassTransit/8.3.2": {
+      "sha512": "URd5UwdH8hi4gvhycTpMhQBeLXkRHGl1/h1JCW5HJVEC+kr5wDwCvUNBzaHfUxYx2xwCGUPTo5ESfMYBHeQt3Q==",
       "type": "package",
-      "path": "masstransit/9.1.2",
+      "path": "masstransit/8.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NuGet.README.md",
-        "lib/net10.0/MassTransit.dll",
-        "lib/net10.0/MassTransit.xml",
         "lib/net472/MassTransit.dll",
         "lib/net472/MassTransit.xml",
         "lib/net8.0/MassTransit.dll",
@@ -1598,21 +1576,19 @@
         "lib/net9.0/MassTransit.xml",
         "lib/netstandard2.0/MassTransit.dll",
         "lib/netstandard2.0/MassTransit.xml",
-        "masstransit.9.1.2.nupkg.sha512",
+        "masstransit.8.3.2.nupkg.sha512",
         "masstransit.nuspec",
         "mt-logo-small.png"
       ]
     },
-    "MassTransit.Abstractions/9.1.2": {
-      "sha512": "o2MymiTaxaJ0LUNm6W/8taD1u6Q/hyee1FwM/XvJ8l4IHgGBOVllPLuViYiI/XDu/t86ErjXOJqXrkOB/+ZrCg==",
+    "MassTransit.Abstractions/8.3.2": {
+      "sha512": "26Ip8xJiu21DABFCFQkU5Lf6uoFkBzKW2PlHclxY/ATUbiZ6F89mf8QlCbdutngv5yoxWJPjFvnDaoSW3orpnA==",
       "type": "package",
-      "path": "masstransit.abstractions/9.1.2",
+      "path": "masstransit.abstractions/8.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NuGet.README.md",
-        "lib/net10.0/MassTransit.Abstractions.dll",
-        "lib/net10.0/MassTransit.Abstractions.xml",
         "lib/net472/MassTransit.Abstractions.dll",
         "lib/net472/MassTransit.Abstractions.xml",
         "lib/net8.0/MassTransit.Abstractions.dll",
@@ -1621,21 +1597,19 @@
         "lib/net9.0/MassTransit.Abstractions.xml",
         "lib/netstandard2.0/MassTransit.Abstractions.dll",
         "lib/netstandard2.0/MassTransit.Abstractions.xml",
-        "masstransit.abstractions.9.1.2.nupkg.sha512",
+        "masstransit.abstractions.8.3.2.nupkg.sha512",
         "masstransit.abstractions.nuspec",
         "mt-logo-small.png"
       ]
     },
-    "MassTransit.RabbitMQ/9.1.2": {
-      "sha512": "yc6qZJdHl5M+7ceTbgUOXXQnl6csuv3Sguv/DWY5xtrkPk8uRwI9isGowDeMGjJgNmbWWy1K7LXjNw+xY+Y5XA==",
+    "MassTransit.RabbitMQ/8.3.2": {
+      "sha512": "Ijj0iMtVbhRdWuLbxh8ePFE6aFr7MIzbl1YJB3eqIruiw7nZNz7Yo79Z7nkymUHQB/Sr3AmSxc3zAI3rM7BsWA==",
       "type": "package",
-      "path": "masstransit.rabbitmq/9.1.2",
+      "path": "masstransit.rabbitmq/8.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NuGet.README.md",
-        "lib/net10.0/MassTransit.RabbitMqTransport.dll",
-        "lib/net10.0/MassTransit.RabbitMqTransport.xml",
         "lib/net472/MassTransit.RabbitMqTransport.dll",
         "lib/net472/MassTransit.RabbitMqTransport.xml",
         "lib/net8.0/MassTransit.RabbitMqTransport.dll",
@@ -1644,7 +1618,7 @@
         "lib/net9.0/MassTransit.RabbitMqTransport.xml",
         "lib/netstandard2.0/MassTransit.RabbitMqTransport.dll",
         "lib/netstandard2.0/MassTransit.RabbitMqTransport.xml",
-        "masstransit.rabbitmq.9.1.2.nupkg.sha512",
+        "masstransit.rabbitmq.8.3.2.nupkg.sha512",
         "masstransit.rabbitmq.nuspec",
         "mt-logo-small.png"
       ]
@@ -1653,7 +1627,6 @@
       "sha512": "cw24xHE2QaWwyEG9GQwFbjboyabub6Vd80DIItUGENzcQOa/BEnTrXsg2GADqWTmY/3ycqk9ToLGjgvF/VRlGA==",
       "type": "package",
       "path": "microsoft.aspnetcore.openapi/10.0.8",
->>>>>>> main
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1664,16 +1637,6 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-<<<<<<< HEAD
-        "microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
-        "microsoft.aspnetcore.openapi.nuspec"
-      ]
-    },
-    "Microsoft.OpenApi/2.0.0": {
-      "sha512": "GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
-      "type": "package",
-      "path": "microsoft.openapi/2.0.0",
-=======
         "microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
@@ -3463,7 +3426,6 @@
       "sha512": "0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
       "type": "package",
       "path": "microsoft.openapi/2.7.5",
->>>>>>> main
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3474,12 +3436,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-<<<<<<< HEAD
-        "microsoft.openapi.2.0.0.nupkg.sha512",
-        "microsoft.openapi.nuspec"
-      ]
-    },
-=======
         "microsoft.openapi.2.7.5.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
@@ -3567,10 +3523,10 @@
         "packageIcon.png"
       ]
     },
-    "RabbitMQ.Client/7.2.1": {
-      "sha512": "YKXEfg9fVQiTKgZlvIhAfPSFaamEgi8DsQmisCH0IAsU4FYLrtoguDrDj6JtJVGUt40QPnBLRH6fTQcAC4qsOg==",
+    "RabbitMQ.Client/7.0.0": {
+      "sha512": "8YJz22mOSMtkbIVuVSz2HbJwbpKwRoXQ1uqbczDUt1w1Ds8dxFs6dkV/oZ8AlTmkErZjtQelHv+oBu52ud00WA==",
       "type": "package",
-      "path": "rabbitmq.client/7.2.1",
+      "path": "rabbitmq.client/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3580,7 +3536,7 @@
         "lib/net8.0/RabbitMQ.Client.xml",
         "lib/netstandard2.0/RabbitMQ.Client.dll",
         "lib/netstandard2.0/RabbitMQ.Client.xml",
-        "rabbitmq.client.7.2.1.nupkg.sha512",
+        "rabbitmq.client.7.0.0.nupkg.sha512",
         "rabbitmq.client.nuspec"
       ]
     },
@@ -4232,7 +4188,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
->>>>>>> main
     "Common/1.0.0": {
       "type": "project",
       "path": "../../BuildingBlocks/Common/Common.csproj",
@@ -4243,14 +4198,11 @@
       "path": "../../BuildingBlocks/Contracts/Contracts.csproj",
       "msbuildProject": "../../BuildingBlocks/Contracts/Contracts.csproj"
     },
-<<<<<<< HEAD
-=======
     "Events/1.0.0": {
       "type": "project",
       "path": "../../BuildingBlocks/Events/Events.csproj",
       "msbuildProject": "../../BuildingBlocks/Events/Events.csproj"
     },
->>>>>>> main
     "SharedKernel/1.0.0": {
       "type": "project",
       "path": "../../BuildingBlocks/SharedKernel/SharedKernel.csproj",
@@ -4261,18 +4213,10 @@
     "net10.0": [
       "Common >= 1.0.0",
       "Contracts >= 1.0.0",
-<<<<<<< HEAD
-      "Microsoft.AspNetCore.OpenApi >= 10.0.9",
-      "SharedKernel >= 1.0.0"
-    ]
-  },
-  "packageFolders": {
-    "C:\\Users\\M S P\\.nuget\\packages\\": {},
-=======
       "Events >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.1",
-      "MassTransit >= 9.1.2",
-      "MassTransit.RabbitMQ >= 9.1.2",
+      "MassTransit >= 8.3.2",
+      "MassTransit.RabbitMQ >= 8.3.2",
       "Microsoft.AspNetCore.OpenApi >= 10.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.9",
@@ -4285,35 +4229,22 @@
   },
   "packageFolders": {
     "C:\\Users\\gowth\\.nuget\\packages\\": {},
->>>>>>> main
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
-      "projectName": "NotificationService",
-      "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
-      "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-      "outputPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\Services\\NotificationService\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
       "projectName": "NotificationService",
       "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\NotificationService.csproj",
       "packagesPath": "C:\\Users\\gowth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\Services\\NotificationService\\obj\\",
->>>>>>> main
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\gowth\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> main
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4329,16 +4260,6 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
-            },
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\Contracts\\Contracts.csproj"
-            },
-            "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
-              "projectPath": "D:\\New Volume2\\HealthMatrix\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
-=======
             "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj": {
               "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\Common\\Common.csproj"
             },
@@ -4350,7 +4271,6 @@
             },
             "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj": {
               "projectPath": "C:\\Users\\gowth\\OneDrive\\Desktop\\dotNet\\HealthMatrixT3\\BuildingBlocks\\SharedKernel\\SharedKernel.csproj"
->>>>>>> main
             }
           }
         }
@@ -4372,22 +4292,17 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
-<<<<<<< HEAD
-          "Microsoft.AspNetCore.OpenApi": {
-            "target": "Package",
-            "version": "[10.0.9, )"
-=======
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[11.3.1, )"
           },
           "MassTransit": {
             "target": "Package",
-            "version": "[9.1.2, )"
+            "version": "[8.3.2, )"
           },
           "MassTransit.RabbitMQ": {
             "target": "Package",
-            "version": "[9.1.2, )"
+            "version": "[8.3.2, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -4418,7 +4333,6 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[10.2.3, )"
->>>>>>> main
           }
         },
         "imports": [
@@ -4440,11 +4354,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
->>>>>>> main
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
